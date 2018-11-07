@@ -1,4 +1,9 @@
+
 const getSleepHours = (day) => {
+// The returned values on this function are the number of hours
+// that were actually slept
+
+
   if (day === 'Monday') {
     return 8;
   } else if (day === 'Tuesday') {
@@ -44,4 +49,4 @@ const calculateSleepDebt = () => {
  }
 }
 
-console.log(calculateSleepDebt())
+console.log(calculateSleepDebt(5))
